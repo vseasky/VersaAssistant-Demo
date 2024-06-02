@@ -1,0 +1,61 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly vSeaskyPort, Version=0.1.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class vSeaskyProtocol.pReceivePointer: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(UInt16, UInt16, UInt16, UInt32*, UInt16): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(UInt16, UInt16, UInt16, UInt32*, UInt16, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class vSeaskyProtocol.pDebugPointer: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(SByte*): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(SByte*, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class vSeaskyProtocol.vSeaskyPort: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    protocol_struct* pTxProtocol : Public
+    protocol_struct* pRxProtocol : Public
+  Methods:
+    GetStorageMethodIsSmall(): PrivateScope, Public, HideBySig
+    ProtocolInit(UInt16, UInt16): PrivateScope, Public, HideBySig
+    ProtocolCalcLen(UInt16): PrivateScope, Public, HideBySig
+    ProtocolAutoInitTx(UInt16): PrivateScope, Public, HideBySig
+    ProtocolAutoInitRx(UInt16): PrivateScope, Public, HideBySig
+    ProtocolTxPointGet(UInt32*, Byte*, UInt16* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    ProtocolRxPointGet(UInt32*, Byte*, UInt16* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    ProtocolInitTx(UInt32*, Byte*, UInt16): PrivateScope, Public, HideBySig
+    ProtocolInitRx(UInt32*, Byte*, UInt16): PrivateScope, Public, HideBySig
+    vSerialOpen(UInt32, UInt32, UInt32, UInt32, UInt32): PrivateScope, Public, HideBySig
+    vSerialClose(): PrivateScope, Public, HideBySig
+    vSerialIsOpen(): PrivateScope, Public, HideBySig
+    vSerialClearBuffer(): PrivateScope, Public, HideBySig
+    vSerialGetLastError(): PrivateScope, Public, HideBySig
+    vSerialReceiveTask(): PrivateScope, Public, HideBySig
+    ProtocolTransmit(UInt16, UInt16, UInt16, UInt32*, UInt16): PrivateScope, Public, HideBySig
+    vSerialSetReceivCallbackFun(pReceivePointer): PrivateScope, Public, HideBySig
+    vSerialSetDebugCallbackFun(Byte, pDebugPointer): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct vSeaskyProtocol.COM_LOG_LEVEL: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    vSeaskyProtocol.COM_LOG_LEVEL COM_LOG_LEVEL_DEBUG = 1 : Public, Static, Literal, HasDefault
+    vSeaskyProtocol.COM_LOG_LEVEL COM_LOG_LEVEL_INFO_ = 2 : Public, Static, Literal, HasDefault
+    vSeaskyProtocol.COM_LOG_LEVEL COM_LOG_LEVEL_WARN_ = 4 : Public, Static, Literal, HasDefault
+    vSeaskyProtocol.COM_LOG_LEVEL COM_LOG_LEVEL_ERROR = 8 : Public, Static, Literal, HasDefault
+    vSeaskyProtocol.COM_LOG_LEVEL COM_LOG_LEVEL_FATAL = 16 : Public, Static, Literal, HasDefault

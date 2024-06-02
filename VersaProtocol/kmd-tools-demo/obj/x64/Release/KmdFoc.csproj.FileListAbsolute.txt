@@ -1,0 +1,46 @@
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\bin\x64\Release\KmdFoc.exe
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\bin\x64\Release\vSeaskyPort.dll
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\bin\x64\Release\KmdFoc.exe.config
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\bin\x64\Release\vSeaskyPort.xml
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.AssemblyReference.cache
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.SuggestedBindingRedirects.cache
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\MainWindow.g.cs
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\NumericUpDownTextBox.g.cs
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\App.g.cs
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc_Content.g.cs
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc_MarkupCompile.cache
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc_MarkupCompile.lref
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\MainWindow.baml
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\NumericUpDownTextBox.baml
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.g.resources
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.Properties.Resources.resources
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.GenerateResource.cache
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.CoreCompileInputs.cache
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.CopyComplete
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.exe
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.pdb
+E:\KmdFoc\Tools\vSeaskyPort\KmdFoc\bin\x64\Release\KmdFoc.pdb
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.AssemblyReference.cache
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.SuggestedBindingRedirects.cache
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\MainWindow.g.cs
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\NumericUpDownTextBox.g.cs
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\App.g.cs
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc_Content.g.cs
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc_MarkupCompile.cache
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc_MarkupCompile.lref
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.exe
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.pdb
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\bin\x64\Release\KmdFoc.exe.config
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\bin\x64\Release\KmdFoc.exe
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\bin\x64\Release\KmdFoc.pdb
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\bin\x64\Release\vSeaskyPort.dll
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\bin\x64\Release\vSeaskyPort.xml
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\MainWindow.baml
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\NumericUpDownTextBox.baml
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.g.resources
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.Properties.Resources.resources
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.GenerateResource.cache
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.CoreCompileInputs.cache
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\KmdFoc\obj\x64\Release\KmdFoc.csproj.CopyComplete

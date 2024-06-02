@@ -1,0 +1,246 @@
+﻿
+/*****************************************************************************
+ * CAutoHideTab
+ *****************************************************************************/
+
+/* 侧边栏状态下的 tab */
+ads--CAutoHideTab {
+    /* this is optional in case you would like to change icon size*/
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    min-height: 32px;
+    qproperty-iconSize: 24px 24px;
+    color: %1;
+    background-color: %2;
+}
+
+ads--CAutoHideTab:hover {
+    background-color: %4;
+}
+
+ads--CAutoHideTab[iconOnly="false"] {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 停靠提示显示块 下停靠-未选择*/
+ads--CAutoHideTab[iconOnly="false"][sideBarLocation="0"],
+ads--CAutoHideTab[iconOnly="false"][sideBarLocation="2"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-top: 6px solid %2;
+}
+
+/* 停靠提示显示块 上停靠-未选择*/
+ads--CAutoHideTab[iconOnly="false"][sideBarLocation="1"],
+ads--CAutoHideTab[iconOnly="false"][sideBarLocation="3"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-bottom: 6px solid %2;
+}
+
+/* 停靠提示显示块 下停靠-选择*/
+ads--CAutoHideTab:hover[iconOnly="false"][sideBarLocation="0"],
+ads--CAutoHideTab:hover[iconOnly="false"][sideBarLocation="2"],
+ads--CAutoHideTab[iconOnly="false"][sideBarLocation="0"][activeTab="true"],
+ads--CAutoHideTab[iconOnly="false"][sideBarLocation="2"][activeTab="true"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-top: 6px solid %4;
+}
+
+/* 停靠提示显示块 下停靠-选择*/
+ads--CAutoHideTab:hover[iconOnly="false"][sideBarLocation="1"],
+ads--CAutoHideTab:hover[iconOnly="false"][sideBarLocation="3"],
+ads--CAutoHideTab[iconOnly="false"][sideBarLocation="1"][activeTab="true"],
+ads--CAutoHideTab[iconOnly="false"][sideBarLocation="3"][activeTab="true"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-bottom: 6px solid %4;
+}
+
+/* 停靠提示显示块 上停靠-未选择*/
+ads--CAutoHideTab[iconOnly="true"][sideBarLocation="0"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-top: 6px solid %2;
+}
+
+/* 停靠提示显示块 左停靠-未选择*/
+ads--CAutoHideTab[iconOnly="true"][sideBarLocation="1"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-left: 6px solid %2;
+}
+
+/* 停靠提示显示块 右停靠-未选择*/
+ads--CAutoHideTab[iconOnly="true"][sideBarLocation="2"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-right: 6px solid %2;
+}
+
+/* 停靠提示显示块 下停靠-未选择*/
+ads--CAutoHideTab[iconOnly="true"][sideBarLocation="3"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-bottom: 6px solid %2;
+}
+
+/* 停靠提示显示块 上停靠-选择*/
+ads--CAutoHideTab:hover[iconOnly="true"][sideBarLocation="0"],
+ads--CAutoHideTab[iconOnly="true"][sideBarLocation="0"][activeTab="true"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-top: 6px solid %4;
+}
+
+/* 停靠提示显示块 左停靠-选择*/
+ads--CAutoHideTab:hover[iconOnly="true"][sideBarLocation="1"],
+ads--CAutoHideTab[iconOnly="true"][sideBarLocation="1"][activeTab="true"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-left: 6px solid %4;
+}
+
+/* 停靠提示显示块 右停靠-选择*/
+ads--CAutoHideTab:hover[iconOnly="true"][sideBarLocation="2"],
+ads--CAutoHideTab[iconOnly="true"][sideBarLocation="2"][activeTab="true"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-right: 6px solid %4;
+}
+
+/* 停靠提示显示块 下停靠-选择*/
+ads--CAutoHideTab:hover[iconOnly="true"][sideBarLocation="3"],
+ads--CAutoHideTab[iconOnly="true"][sideBarLocation="3"][activeTab="true"] {
+    padding: 0px;
+    border-radius: 0px;
+    border-bottom: 6px solid %4;
+}
+
+/*****************************************************************************
+ * CAutoHideSideBar
+ *****************************************************************************/
+ /* 侧边栏 */
+ads--CAutoHideSideBar {
+    background-color: %1;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    qproperty-spacing: 0px;
+}
+
+#sideTabsContainerWidget {
+    background-color: transparent;
+}
+
+ads--CAutoHideSideBar[sideBarLocation="0"] {
+    border-bottom: 2px solid red;
+}
+
+ads--CAutoHideSideBar[sideBarLocation="1"] {
+    border-right: 2px solid red;
+}
+
+ads--CAutoHideSideBar[sideBarLocation="2"] {
+    border-left: 2px solid red;
+}
+
+ads--CAutoHideSideBar[sideBarLocation="3"] {
+    border-top: 2px solid red;
+}
+
+
+/*****************************************************************************
+ * CAutoHideDockContainer
+ *****************************************************************************/
+ads--CAutoHideDockContainer,
+ads--CAutoHideDockContainer ads--CDockAreaTitleBar,
+ads--CAutoHideDockContainer ads--CDockAreaWidget[focused="true"] {
+    margin: 0;
+    padding: 0px;
+    border: none;
+    color: %1;
+    background-color: %1;
+}
+
+
+
+/* 侧边栏状态下展开的标题栏 */
+ads--CAutoHideDockContainer ads--CDockAreaWidget[focused="true"] ads--CDockAreaTitleBar {
+    margin: 0;
+    padding: 0px;
+    border: none;
+    background-color: %1;
+}
+
+
+ads--CAutoHideDockContainer ads--CDockAreaWidget[focused="true"] ads--CDockAreaTitleBar ads--CDockWidgetTab {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    background-color: %1;
+    border-color: %2;
+    min-height: 32px;
+}
+
+/* #autoHideTitleLabel {
+    padding-left: 4px;
+    color: palette(light);
+} */
+
+
+/* 侧边栏状态下固定展开按钮 */
+ads--CAutoHideDockContainer #dockAreaAutoHideButton {
+    qproperty-icon: url(:/ads/images/vs-pin-button-pinned.svg);
+    qproperty-iconSize: 24px 24px;
+}
+
+/* 侧边栏状态下关闭按钮 */
+#dockAreaCloseButton,
+ads--CAutoHideDockContainer #dockAreaCloseButton {
+    qproperty-icon: url(:/ads/images/close-button.svg);
+    qproperty-iconSize: 24px 24px;
+}
+
+
+ads--CAutoHideDockContainer ads--CTitleBarButton {
+    background-color: %1;
+    padding: 0px;
+    margin: 0px;
+}
+
+ads--CAutoHideDockContainer ads--CTitleBarButton:hover {
+    /* 主题颜色1 */
+    background-color: %2;
+}
+
+ads--CAutoHideDockContainer ads--CTitleBarButton:checked {
+    /* 选中颜色1 */
+    background-color: %4;
+}
+
+ads--CResizeHandle {
+    background-color: %1;
+}
+
+ads--CAutoHideDockContainer[sideBarLocation="0"] ads--CResizeHandle {
+    border-top: 1px solid palette(dark);
+}
+
+ads--CAutoHideDockContainer[sideBarLocation="1"] ads--CResizeHandle {
+    border-left: 1px solid palette(dark);
+}
+
+ads--CAutoHideDockContainer[sideBarLocation="2"] ads--CResizeHandle {
+    border-right: 1px solid palette(dark);
+}
+
+ads--CAutoHideDockContainer[sideBarLocation="3"] ads--CResizeHandle {
+    border-top: 1px solid palette(dark);
+}

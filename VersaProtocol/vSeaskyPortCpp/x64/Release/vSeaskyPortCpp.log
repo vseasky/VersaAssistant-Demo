@@ -1,0 +1,37 @@
+﻿  bsp_protocol.cpp
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.h(89): warning C4633: XML 文档注释 应用于“vSeaskyProtocol.vSeaskyPort.ProtocolRxPointGet(System.UInt32*,System.Byte*,System.UInt16*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)”: 错误: “pRxData”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.h(89): warning C4633: XML 文档注释 应用于“vSeaskyProtocol.vSeaskyPort.ProtocolRxPointGet(System.UInt32*,System.Byte*,System.UInt16*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)”: 错误: “pRxBuffer”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\crc\bsp_crc16.h(41): warning C4633: XML 文档注释 应用于“init_crc16_tab”: 错误: “”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol.cpp(313,128): warning C4311: “类型强制转换”: 从“void *”到“int”的指针截断
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol.cpp(313,128): warning C4302: “类型强制转换”: 从“void *”到“int”截断
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol.cpp(369,163): warning C4311: “类型强制转换”: 从“void *”到“int”的指针截断
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol.cpp(369,163): warning C4302: “类型强制转换”: 从“void *”到“int”截断
+  bsp_protocol_class.cpp
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.h(89): warning C4633: XML 文档注释 应用于“vSeaskyProtocol.vSeaskyPort.ProtocolRxPointGet(System.UInt32*,System.Byte*,System.UInt16*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)”: 错误: “pRxData”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.h(89): warning C4633: XML 文档注释 应用于“vSeaskyProtocol.vSeaskyPort.ProtocolRxPointGet(System.UInt32*,System.Byte*,System.UInt16*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)”: 错误: “pRxBuffer”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.cpp(48): warning C4633: XML 文档注释 应用于“vSeaskyProtocol.vSeaskyPort.GetStorageMethodIsSmall”: 错误: “uLen”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.cpp(127): warning C4633: XML 文档注释 应用于“vSeaskyProtocol.vSeaskyPort.ProtocolRxPointGet(System.UInt32*,System.Byte*,System.UInt16*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)”: 错误: “pRxData”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.cpp(127): warning C4633: XML 文档注释 应用于“vSeaskyProtocol.vSeaskyPort.ProtocolRxPointGet(System.UInt32*,System.Byte*,System.UInt16*!System.Runtime.CompilerServices.IsImplicitlyDereferenced)”: 错误: “pRxBuffer”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.cpp(476,9): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  bsp_crc16.cpp
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\crc\bsp_crc16.h(41): warning C4633: XML 文档注释 应用于“init_crc16_tab”: 错误: “”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\crc\bsp_crc16.cpp(71): warning C4633: XML 文档注释 应用于“init_crc16_tab”: 错误: “”不是在此函数的声明中命名的参数。
+  bsp_crc8.cpp
+  vSerialPort.cpp
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\vSerial\vSerialPort.cpp(4): warning C4633: XML 文档注释 应用于“vSerialPort.openSyn(std.basic_string<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte>>,System.UInt32!System.Runtime.CompilerServices.IsLong,System.Byte,System.Byte,System.Byte)”: 错误: “serial_name”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\vSerial\vSerialPort.cpp(4): warning C4633: XML 文档注释 应用于“vSerialPort.openSyn(std.basic_string<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte>>,System.UInt32!System.Runtime.CompilerServices.IsLong,System.Byte,System.Byte,System.Byte)”: 错误: “baud_rate”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\vSerial\vSerialPort.cpp(4): warning C4633: XML 文档注释 应用于“vSerialPort.openSyn(std.basic_string<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte>>,System.UInt32!System.Runtime.CompilerServices.IsLong,System.Byte,System.Byte,System.Byte)”: 错误: “parity”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\vSerial\vSerialPort.cpp(4): warning C4633: XML 文档注释 应用于“vSerialPort.openSyn(std.basic_string<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte>>,System.UInt32!System.Runtime.CompilerServices.IsLong,System.Byte,System.Byte,System.Byte)”: 错误: “byte_size”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\vSerial\vSerialPort.cpp(4): warning C4633: XML 文档注释 应用于“vSerialPort.openSyn(std.basic_string<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte,std.char_traits{System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte},std.allocator<System.SByte!System.Runtime.CompilerServices.IsSignUnspecifiedByte>>,System.UInt32!System.Runtime.CompilerServices.IsLong,System.Byte,System.Byte,System.Byte)”: 错误: “stop_bits”不是在此函数的声明中命名的参数。
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\vSerial\vSerialPort.cpp(180,73): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  AssemblyInfo.cpp
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+  正在生成代码...
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.cpp(468): warning C4793: “bsp_debug_c”: 编译为本机的函数:
+  	/clr 下不支持 varargs
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.cpp(475): warning C4793: “bsp_debug_c”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\Protocol\bsp_protocol_class.cpp(477): warning C4793: “bsp_debug_c”: 编译为本机的函数:
+  	托管代码中发现一个不受支持的内部函数
+  bsp_protocol.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
+  vSeaskyPortCpp.vcxproj -> E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\vSeaskyPortCpp\x64\Release\vSeaskyPort.dll

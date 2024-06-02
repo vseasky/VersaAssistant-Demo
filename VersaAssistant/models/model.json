@@ -1,0 +1,111 @@
+{
+  "ModelPath": [
+    "E:/projects/VersaAssistant/VersaAssistant/models/DJIMatrice30T.obj",
+    "E:/projects/VersaAssistant/VersaAssistant/models/dummy.obj"
+  ],
+  "VersaRobot": {
+    "DJIMatrice30T.obj": {
+      "Matrice30T": {
+        "parent": "DJIMatrice30T.obj",
+        "action": "transform"
+      }
+    },
+    "dummy.obj": {
+      "robot-node1": {
+        "parent": "dummy.obj",
+        "action": "transform"
+      },
+      "robot-node2": {
+        "parent": "robot-node1",
+        "action": "rotation",
+        "rotation_coordinates": [
+          0.0,
+          0.0835,
+          0.0
+        ],
+        "rotation_axis_enable": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "rotation_limit_angle": [
+          -180.0,
+          180.0
+        ]
+      },
+      "robot-node3": {
+        "parent": "robot-node2",
+        "action": "rotation",
+        "rotation_coordinates": [
+          0.035,
+          0.109,
+          0.0
+        ],
+        "rotation_axis_enable": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotation_limit_angle": [
+          -180.0,
+          180.0
+        ]
+      },
+      "robot-node4": {
+        "parent": "robot-node3",
+        "action": "rotation",
+        "rotation_coordinates": [
+          0.035,
+          0.255,
+          0.0
+        ],
+        "rotation_axis_enable": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotation_limit_angle": [
+          -180.0,
+          180.0
+        ]
+      },
+      "robot-node5": {
+        "parent": "robot-node4",
+        "action": "rotation",
+        "rotation_coordinates": [
+          0.023,
+          0.307,
+          0.0
+        ],
+        "rotation_axis_enable": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "rotation_limit_angle": [
+          -180.0,
+          180.0
+        ]
+      },
+      "robot-node6": {
+        "parent": "robot-node5",
+        "action": "rotation",
+        "rotation_coordinates": [
+          0.150,
+          0.307,
+          0.0
+        ],
+        "rotation_axis_enable": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotation_limit_angle": [
+          -180.0,
+          180.0
+        ]
+      }
+    }
+  }
+}
+

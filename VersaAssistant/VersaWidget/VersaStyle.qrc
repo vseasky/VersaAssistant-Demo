@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>VersaStyleLight.qss</file>
+        <file>statement.txt</file>
+        <file>VersaAssistant.svg</file>
+    </qresource>
+</RCC>
