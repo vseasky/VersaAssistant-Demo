@@ -1,15 +1,20 @@
-﻿#ifndef VERSA_QCUSTOMPLOT_TRACER_H
+﻿/** 
+ * @License      : All interpretation rights of this software belong to the author, and operations such as reprinting and
+ * @			   sharing are prohibited without permission.
+ * @Author       : Copyright (c), vseasky.liu vseasky@yeah.net.
+ * @Github       : https://github.com/vseasky
+ * @Date         : 2024-06-02 23:53:05
+ * @FilePath     : \VersaAssistant\VersaQCustomplot\VersaQCustomPlotTracer.h
+ * @Description  : 
+ */
+#ifndef VERSA_QCUSTOMPLOT_TRACER_H
 #define VERSA_QCUSTOMPLOT_TRACER_H
 
 #include <qcustomplot.h>
 #include <QObject>
 #include <QPointer>
 
-/*
- **********************************************
- ************VseraQCustomPlot的移动光标************
- **********************************************
- */
+
 
 class VersaTracer : public QCPItemTracer
 {

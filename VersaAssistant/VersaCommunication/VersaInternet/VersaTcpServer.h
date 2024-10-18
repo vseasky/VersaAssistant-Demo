@@ -1,12 +1,13 @@
-﻿/*
- ************************************** Copyright ******************************
- * @FileName     :  vqtcpserver.h
- * @Author       :  Seasky.Liu
- * @Date         :  2021/8/30
- * @Time         :  19:28
- * @Email        :  xxx.
- ******************************************************************************
+﻿/** 
+ * @License      : All interpretation rights of this software belong to the author, and operations such as reprinting and
+ * @			   sharing are prohibited without permission.
+ * @Author       : Copyright (c), vseasky.liu vseasky@yeah.net.
+ * @Github       : https://github.com/vseasky
+ * @Date         : 2024-06-02 23:53:05
+ * @FilePath     : \VersaAssistant\VersaCommunication\VersaInternet\VersaTcpServer.h
+ * @Description  : 
  */
+
 
 #ifndef VQTCPSERVER_H
 #define VQTCPSERVER_H

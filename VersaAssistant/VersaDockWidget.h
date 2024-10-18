@@ -1,6 +1,13 @@
-//
-// Created by vSeasky on 2023/9/4.
-//
+/** 
+ * @License      : All interpretation rights of this software belong to the author, and operations such as reprinting and
+ * @			   sharing are prohibited without permission.
+ * @Author       : Copyright (c), vseasky.liu vseasky@yeah.net.
+ * @Github       : https://github.com/vseasky
+ * @Date         : 2024-06-02 23:53:05
+ * @FilePath     : \VersaAssistant\VersaDockWidget.h
+ * @Description  : 
+ */
+
 
 #ifndef VERSA_ASSISTANT_VERSADOCKWIDGET_H
 #define VERSA_ASSISTANT_VERSADOCKWIDGET_H
