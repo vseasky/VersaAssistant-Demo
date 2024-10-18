@@ -1,0 +1,1089 @@
+Dependencies for Project 'VersaAssistant', Target 'VersaAssistant': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (startup_stm32g474xx.s)(0x6683B40B)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32G474xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o versaassistant/startup_stm32g474xx.o)
+F (../Core/Src/main.c)(0x6684DD6A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/main.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+I (..\Peripheral\bsp_key.h)(0x66829E49)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\Protocol\bsp_protocol.h)(0x6683A767)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\Peripheral\bsp_systick.hr.\Peripheral\bsp_versaassistant.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+F (../Core/Src/stm32g4xx_it.c)(0x6683B154)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_it.o -MD)
+I (..\Core\Inc\main.h4.\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_it.h)(0x6682A349)
+F (../Core/Src/stm32g4xx_hal_msp.c)(0x6682A349)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_msp.o -MD)
+I (..\Core\Inc\main.h4.\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_tim.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_tim_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_pwr_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_uart.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_uart_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_rcc.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_rcc_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_flash.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_flash_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_flash_ramfunc.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_gpio.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_exti.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_dma.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_dma_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_pwr.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_cortex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_pcd.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_hal_pcd_ex.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/stm32g4xx_ll_usb.o -MD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (../Core/Src/system_stm32g4xx.c)(0x6673EDE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/system_stm32g4xx.o -MD)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (..\..\CherryUSB\core\usbd_core.c)(0x66821BE5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/usbd_core.o -MD)
+I (..\..\CherryUSB\core\usbd_core.h)(0x66821BE5)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\USBConfig\usb_config.he.\..\CherryUSB\common\usb_util.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_errno.hC.\..\CherryUSB\common\usb_def.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_list.hh.\..\CherryUSB\common\usb_log.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\CherryUSB\common\usb_dc.hR.\..\CherryUSB\common\usb_memcpy.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+F (..\..\CherryUSB\class\cdc\usbd_cdc.c)(0x66821BE5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/usbd_cdc.o -MD)
+I (..\..\CherryUSB\core\usbd_core.h)(0x66821BE5)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\USBConfig\usb_config.he.\..\CherryUSB\common\usb_util.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_errno.hC.\..\CherryUSB\common\usb_def.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_list.hh.\..\CherryUSB\common\usb_log.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\CherryUSB\common\usb_dc.hR.\..\CherryUSB\common\usb_memcpy.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\..\CherryUSB\class\cdc\usbd_cdc.h)(0x66821BE5)
+I (..\..\CherryUSB\class\cdc\usb_cdc.h)(0x66821BE5)
+F (..\..\CherryUSB\port\fsdev\usb_dc_fsdev.c)(0x66821BE5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/usb_dc_fsdev.o -MD)
+I (..\..\CherryUSB\core\usbd_core.h)(0x66821BE5)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\USBConfig\usb_config.he.\..\CherryUSB\common\usb_util.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_errno.hC.\..\CherryUSB\common\usb_def.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_list.hh.\..\CherryUSB\common\usb_log.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\CherryUSB\common\usb_dc.hR.\..\CherryUSB\common\usb_memcpy.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\..\CherryUSB\port\fsdev\usb_fsdev_reg.h)(0x66821BE5)
+F (..\..\CherryUSB\class\hid\usbd_hid.c)(0x66821BE5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/usbd_hid.o -MD)
+I (..\..\CherryUSB\core\usbd_core.h)(0x66821BE5)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\USBConfig\usb_config.he.\..\CherryUSB\common\usb_util.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_errno.hC.\..\CherryUSB\common\usb_def.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_list.hh.\..\CherryUSB\common\usb_log.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\CherryUSB\common\usb_dc.hR.\..\CherryUSB\common\usb_memcpy.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\..\CherryUSB\class\hid\usbd_hid.h)(0x66821BE5)
+I (..\..\CherryUSB\class\hid\usb_hid.h)(0x66821BE5)
+F (..\Peripheral\bsp_versaassistant.c)(0x6684DD18)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/bsp_versaassistant.o -MD)
+I (..\Peripheral\bsp_versaassistant.h)(0x6684DD27)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\..\Protocol\bsp_protocol.h\.\Core\Inc\main.h)(0x00000000)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (..\Peripheral\bsp_systick.c)(0x6677E223)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/bsp_systick.o -MD)
+I (..\Peripheral\bsp_systick.h)(0x6677E3CD)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (..\Peripheral\bsp_uart.c)(0x6684DA27)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/bsp_uart.o -MD)
+I (..\Peripheral\bsp_uart.h)(0x6682978B)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\Peripheral\bsp_versaassistant.hA.\Core\Inc\main.h)(0x00000000)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x6673EDE4)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (..\Peripheral\bsp_key.c)(0x6684DC9A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/bsp_key.o -MD)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\Core\Inc\main.he.\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h)(0x00000000)
+I (..\Core\Inc\stm32g4xx_hal_conf.h)(0x66821B94)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_def.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6673EDE4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_version.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6673EDBC)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\cmsis_armclang.h)(0x6673EDBC)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (E:\Projects\VersaAssistant-STM32\VersaAssistant\Drivers\CMSIS\Include\mpu_armv7.h)(0x6673EDBC)
+I (..\Drivers\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x6673EDE4)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_gpio_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_dma_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_cortex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_exti.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_flash_ramfunc.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usb.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pcd_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_pwr_ex.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h)(0x6673EDE4)
+I (..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h)(0x6673EDE4)
+F (..\..\Protocol\crc\bsp_crc8.c)(0x650E53CE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/bsp_crc8.o -MD)
+I (..\..\Protocol\crc\bsp_crc8.h)(0x650E53C6)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+F (..\..\Protocol\crc\bsp_crc16.c)(0x6507BFEA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/bsp_crc16.o -MD)
+I (..\..\Protocol\crc\bsp_crc16.h)(0x6507BFEA)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+F (..\..\Protocol\bsp_protocol.c)(0x6683A87F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/bsp_protocol.o -MD)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\Protocol\bsp_protocol.h)(0x6683A767)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\Protocol\.\crc\bsp_crc8.hR.\..\Protocol\.\crc\bsp_crc16.h)(0x00000000)
+F (..\..\USBConfig\usb_config.c)(0x6684DE07)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -w -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../../Protocol -I ../../Protocol/crc -I ../../CherryUSB/core -I ../../CherryUSB/port/fsdev -I ../../CherryUSB/common -I ../../CherryUSB/class/cdc -I ../../CherryUSB/class/hid -I ../../USBConfig -I ../Peripheral-I./RTE/_VersaAssistant-ID:/SoftwareTools/Keil_v5/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/SoftwareTools/Keil_v5/Arm/Packs/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G474xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G474xx-o versaassistant/usb_config.o -MD)
+I (..\..\CherryUSB\core\usbd_core.h)(0x66821BE5)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
+I (..\..\USBConfig\usb_config.he.\..\CherryUSB\common\usb_util.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_errno.hC.\..\CherryUSB\common\usb_def.h)(0x00000000)
+I (..\..\CherryUSB\common\usb_list.hh.\..\CherryUSB\common\usb_log.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\CherryUSB\common\usb_dc.hR.\..\CherryUSB\common\usb_memcpy.h)(0x00000000)
+I (D:\SoftwareTools\Keil_v5\Core\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (..\..\CherryUSB\class\cdc\usbd_cdc.h)(0x66821BE5)
+I (..\..\CherryUSB\class\cdc\usb_cdc.h)(0x66821BE5)
+I (..\..\CherryUSB\class\hid\usbd_hid.h)(0x66821BE5)
+I (..\..\CherryUSB\class\hid\usb_hid.hh.\Peripheral\bsp_versaassistant.h)(0x00000000)
