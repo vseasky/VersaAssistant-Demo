@@ -1,2 +1,0 @@
-E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\vSeaskyPortCpp\Release\vSeaskyPortCpp.vcxproj.AssemblyReference.cache
-E:\KmdFoc\Tools\NET Framework 4.8\vSeaskyPort\vSeaskyPortCpp\Release\vSeaskyPort.dll
