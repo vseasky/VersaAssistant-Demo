@@ -114,7 +114,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USB_PCD_Init();
   /* USER CODE BEGIN 2 */
-  
+
   bsp_versa_init();
   extern void usb_config_init(uint8_t busid, uint32_t reg_base);
   usb_config_init(0, USB_BASE);
@@ -128,57 +128,57 @@ int main(void)
     /* USER CODE BEGIN 3 */
     static uint32_t expression = 0;
     switch (expression) {
-    case 0: // LED Blink
-    {
-      static uint64_t led_blink_time = 0;
-      if (bsp_systick_get_ms_since(led_blink_time) >= 500) {
+      case 0: // LED Blink
+        {
+          static uint64_t led_blink_time = 0;
+          if (bsp_systick_get_ms_since(led_blink_time) >= 500) {
 
-        HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
-        led_blink_time = bsp_systick_get_tick_ms();
-      }
-    } break;
-    case 100: // Key Scan
-    {
-      static uint64_t key_tick_time = 0;
-      if (bsp_systick_get_ms_since(key_tick_time) >= 2) {
-        key_enc_scanf();
-        key_tick_time = bsp_systick_get_tick_ms();
-      }
-    } break;
-    case 200: // VersaAssistant Test
-    {
-      static uint64_t versa_tick_time = 0;
-      static uint32_t versa_count = 0;
-      float pData[12];
-      if (bsp_systick_get_ms_since(versa_tick_time) >= 2) {
-        versa_tick_time = bsp_systick_get_tick_ms();
-        versa_count++;
-          
-        pData[0] = versa_count % 1000;
-        pData[1] = (versa_count / 1000) % 1000;
-        pData[2] = (versa_count / 1000 * 1000) % 1000;
-        pData[3] = (versa_count / 1000 * 1000 * 1000) % 1000;
-          
-        pTxProtocol.frame.frame_user.header.cmd = 0x01;
-        pTxProtocol.frame.frame_user.header.data_id = 0x0aa;
-        pTxProtocol.frame.frame_user.header.device_id = 0xfe00ee;
-        pTxProtocol.frame.frame_user.header.device_type = 0x0ff;          
-        memcpy((char *)(pTxProtocol.frame.frame_user.data.pData), (char *)pData,
-               6 * 4);
-        pTxProtocol.frame.frame_user.data.data_len = 12;
-        make_protocol(&pTxProtocol);
-        bsp_versa_transmit(pTxProtocol.message.pData,
-                           pTxProtocol.message.data_len);
-      }
-    } break;
+            HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+            led_blink_time = bsp_systick_get_tick_ms();
+          }
+        } break;
+      case 100: // Key Scan
+        {
+          static uint64_t key_tick_time = 0;
+          if (bsp_systick_get_ms_since(key_tick_time) >= 2) {
+            key_enc_scanf();
+            key_tick_time = bsp_systick_get_tick_ms();
+          }
+        } break;
+      case 200: // VersaAssistant Test
+        {
+          static uint64_t versa_tick_time = 0;
+          static uint32_t versa_count = 0;
+          float pData[12];
+          if (bsp_systick_get_ms_since(versa_tick_time) >= 2)
+          {
+            versa_tick_time = bsp_systick_get_tick_ms();
+            versa_count++;
+            pData[0] = versa_count % 1000;
+            pData[1] = (versa_count / 1000) % 1000;
+            pData[2] = (versa_count / 1000 * 1000) % 1000;
+            pData[3] = (versa_count / 1000 * 1000 * 1000) % 1000;
+            pTxProtocol.frame.frame_user.header.cmd = 0x01;
+            pTxProtocol.frame.frame_user.header.data_id = 0x0aa;
+            pTxProtocol.frame.frame_user.header.device_id = 0xfe00ee;
+            pTxProtocol.frame.frame_user.header.device_type = 0x0ff;
+            memcpy((char*)(pTxProtocol.frame.frame_user.data.pData), (char*)pData,
+                   6 * 4);
+            pTxProtocol.frame.frame_user.data.data_len = 12;
+            make_protocol(&pTxProtocol);
+            bsp_versa_transmit(pTxProtocol.message.pData,
+                               pTxProtocol.message.data_len);
+          }
+        } break;
     }
     expression++;
-    if (expression > 300) {
+    if (expression > 300)
+    {
       expression = 0;
     }
-     bsp_versa_type_transmit = key_t[0].key_info.click_state_num;
+    bsp_versa_type_transmit = key_t[0].key_info.click_state_num;
   }
- 
+
   /* USER CODE END 3 */
 }
 
@@ -188,8 +188,8 @@ int main(void)
   */
 void SystemClock_Config(void)
 {
-  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
-  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+  RCC_OscInitTypeDef RCC_OscInitStruct = { 0 };
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = { 0 };
 
   /** Configure the main internal regulator output voltage
   */
@@ -198,7 +198,7 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI|RCC_OSCILLATORTYPE_HSI48;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI | RCC_OSCILLATORTYPE_HSI48;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
   RCC_OscInitStruct.HSI48State = RCC_HSI48_ON;
@@ -216,8 +216,8 @@ void SystemClock_Config(void)
 
   /** Initializes the CPU, AHB and APB buses clocks
   */
-  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
-                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_SYSCLK
+    | RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2;
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
@@ -337,7 +337,7 @@ static void MX_DMA_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  GPIO_InitTypeDef GPIO_InitStruct = { 0 };
 /* USER CODE BEGIN MX_GPIO_Init_1 */
 /* USER CODE END MX_GPIO_Init_1 */
 
@@ -400,7 +400,7 @@ void Error_Handler(void)
   * @param  line: assert_param error line source number
   * @retval None
   */
-void assert_failed(uint8_t *file, uint32_t line)
+void assert_failed(uint8_t* file, uint32_t line)
 {
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line

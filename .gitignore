@@ -36,4 +36,6 @@
 .idea/*
 *.dll
 VersaAssistant-release/*
+HID-Config/*
+STM32G474RBT6/*
 *.zip
