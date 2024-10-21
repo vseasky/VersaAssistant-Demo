@@ -5,9 +5,6 @@
 
 [VersaAssistant文档](https://docs.liuwei.vin/projects/VersaAssistant/)
 
-```
-
-
 
 ## 本仓库案例
 
